@@ -1,4 +1,4 @@
-package com.ard333.springbootwebfluxjjwt.security;
+package com.oauth2.springbootwebfluxjjwt.security;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpHeaders;
@@ -14,7 +14,7 @@ import reactor.core.publisher.Mono;
 
 /**
  *
- * @author ard333
+ * @author abc
  */
 @Component
 public class SecurityContextRepository implements ServerSecurityContextRepository{

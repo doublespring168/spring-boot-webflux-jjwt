@@ -1,4 +1,4 @@
-package com.ard333.springbootwebfluxjjwt.security;
+package com.oauth2.springbootwebfluxjjwt.security;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.reactive.config.CorsRegistry;
@@ -7,7 +7,7 @@ import org.springframework.web.reactive.config.WebFluxConfigurer;
 
 /**
  *
- * @author ard333
+ * @author abc
  */
 @Configuration
 @EnableWebFlux

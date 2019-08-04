@@ -1,14 +1,14 @@
-package com.ard333.springbootwebfluxjjwt.service;
+package com.oauth2.springbootwebfluxjjwt.service;
 
-import com.ard333.springbootwebfluxjjwt.model.User;
-import com.ard333.springbootwebfluxjjwt.security.model.Role;
+import com.oauth2.springbootwebfluxjjwt.model.User;
+import com.oauth2.springbootwebfluxjjwt.security.model.Role;
 import java.util.Arrays;
 import org.springframework.stereotype.Service;
 import reactor.core.publisher.Mono;
 
 /**
  *
- * @author ard333
+ * @author abc
  */
 @Service
 public class UserService {

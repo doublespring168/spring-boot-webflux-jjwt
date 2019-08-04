@@ -1,8 +1,8 @@
-package com.ard333.springbootwebfluxjjwt.model;
+package com.oauth2.springbootwebfluxjjwt.model;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonProperty;
-import com.ard333.springbootwebfluxjjwt.security.model.Role;
+import com.oauth2.springbootwebfluxjjwt.security.model.Role;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
@@ -17,7 +17,7 @@ import lombok.ToString;
 
 /**
  *
- * @author ard333
+ * @author abc
  */
 @ToString @AllArgsConstructor @NoArgsConstructor
 public class User implements UserDetails {

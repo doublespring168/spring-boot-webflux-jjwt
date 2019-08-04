@@ -1,4 +1,4 @@
-package com.ard333.springbootwebfluxjjwt.security.model;
+package com.oauth2.springbootwebfluxjjwt.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -7,13 +7,11 @@ import lombok.ToString;
 
 /**
  *
- * @author ard333
+ * @author abc
  */
 @Data @NoArgsConstructor @AllArgsConstructor @ToString
-public class  AuthRequest {
+public class Message {
 	
-	private String username;
+	private String content;
 	
-	private String password;
-
 }

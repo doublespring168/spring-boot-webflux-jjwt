@@ -1,6 +1,6 @@
-package com.ard333.springbootwebfluxjjwt.security;
+package com.oauth2.springbootwebfluxjjwt.security;
 
-import com.ard333.springbootwebfluxjjwt.security.model.Role;
+import com.oauth2.springbootwebfluxjjwt.security.model.Role;
 import io.jsonwebtoken.Claims;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.authentication.ReactiveAuthenticationManager;
@@ -15,7 +15,7 @@ import java.util.stream.Collectors;
 
 /**
  *
- * @author ard333
+ * @author abc
  */
 @Component
 public class AuthenticationManager implements ReactiveAuthenticationManager {
